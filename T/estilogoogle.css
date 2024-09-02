@@ -1,0 +1,135 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding:40px;
+}
+
+header {
+    padding: 20px ;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.header-content a {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.header-content a:hover {
+    text-decoration: underline;
+}
+
+.animation img {
+    max-width: 570px;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.search-bar {
+    margin: 20px auto;
+}
+
+.search-bar input[type="text"] {
+    width: 700px ;
+    padding: 10px;
+    border: 1px solid #626262a9;
+    border-radius: 25px;
+    box-shadow: 6px rgba(0,0,0,0.1);
+}
+
+.search-button, .lucky-button {
+    padding:8px;
+    border: none;
+    border-radius: 24px;
+    background-color: #f8f9fa;
+    cursor: pointer;
+}
+
+.search-button {
+    background-color: #f8f9fa;
+    color: #5f6368;
+}
+
+.lucky-button {
+    background-color: #f8f9fa;
+    color: #5f6368;
+    margin-left: 10px;
+}
+
+.search-button:hover, .lucky-button:hover {
+    background-color: #f1f1f1;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+footer a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.header-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.header-content a {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.header-content a:hover {
+    text-decoration: underline;
+}
+
+.header-content i {
+    font-size: 16px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; 
+    background-color: #f8f9fa; 
+    text-align: center; 
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    text-decoration: none; 
+    color: #1a0dab; 
+}
+

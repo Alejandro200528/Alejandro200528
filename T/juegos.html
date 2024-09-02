@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Gamer</title>
+    <link rel="stylesheet" href="juego.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="https://www.net/vinhab/fruit-ninja">Fruit Ninja</a></li>
+                <li><a href="https://www.net/vinhab/Stack Fall 3D" >Crazy Mode"></a></li>
+                <li><a href="https://www.net/vinhab/Geometry Dash Subzero">Geometry Dash Subzero</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content">
+        <h1>Juegos</h1>
+        <p>
+            <form>
+                <select name="links" onchange="top.location.href=this.form.links.options[this.form.links.selectedIndex].value">
+                    <option selected disabled>Elige tu juego favorito</option>
+                    <option value="https://www.net/vinhab/fruit-ninja">Fruit Ninja</option>
+                    <option value="https://www.net/vinhab/Stack Fall 3D: Crazy Mode">Stack Fall 3D: Crazy Mode</option>
+                    <option value="https://www:net/vinhab/Geometry Dash Subzero">Geometry Dash Subzero</option>
+                </select>
+            </form>
+        </p>
+    </div>
+    <marquee behavior="scroll" direction="right" id="ejemplo"></marquee>
+    </marquee>
+</body>
+</html>
